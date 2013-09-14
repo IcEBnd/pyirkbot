@@ -40,3 +40,9 @@ class Settings(AutoReloader):                      # these two lines
 	#	   "systembolaget", "tenta", "timezone", "title_reader", "tv", 
 	#	   "tyda", "yrno"]
 
+	# Insult plugin takes the following settings
+	insult = {
+		"timeout" : 3600,  # In seconds
+		"min_votes" : 4 # Min number of votes for deletion to occur
+	}
+
